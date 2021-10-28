@@ -1,6 +1,6 @@
 {
   "name": "capacitor-background-interval-process",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "this lib ensures to run the interval process in background when app is suspended",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -25,7 +25,18 @@
   "keywords": [
     "capacitor",
     "plugin",
-    "native"
+    "native",
+    "backgound",
+    "capacitor backgound",
+    "background task",
+    "background process",
+    "background service",
+    "capacitor background task",
+    "capacitor background process",
+    "capacitor background service",
+    "capacitor background interval task",
+    "capacitor background interval process",
+    "capacitor background interval service"
   ],
   "scripts": {
     "verify": "npm run verify:ios && npm run verify:android && npm run verify:web",
