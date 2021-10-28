@@ -1,18 +1,21 @@
 import Foundation
 import Capacitor
+import UIKit
 
-/**
- * Please read the Capacitor iOS Plugin Development Guide
- * here: https://capacitorjs.com/docs/plugins/ios
- */
 @objc(BackgroundIntervalProcessPlugin)
 public class BackgroundIntervalProcessPlugin: CAPPlugin {
-    private let implementation = BackgroundIntervalProcess()
-
-    @objc func echo(_ call: CAPPluginCall) {
-        let value = call.getString("value") ?? ""
-        call.resolve([
-            "value": implementation.echo(value)
-        ])
+    private final let SMTH_WENT_WRONG: String = "SOME_THING_WENT_WRONG";
+    private final let COMING_SOON_NOT_IMPLEMENTED_YET: String = "COMING_SOON_NOT_IMPLEMENTED_YET";
+    
+    @objc func isProcessAlive(_ call: CAPPluginCall){
+        call.reject(self.COMING_SOON_NOT_IMPLEMENTED_YET);
+    }
+    
+    @objc func startProcess(_ call: CAPPluginCall){
+        call.reject(self.COMING_SOON_NOT_IMPLEMENTED_YET);
+    }
+    
+    @objc func terminateProcess(_ call: CAPPluginCall){
+        call.reject(self.COMING_SOON_NOT_IMPLEMENTED_YET);
     }
 }
