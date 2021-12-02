@@ -112,6 +112,7 @@ removeAllListeners() => Promise<void>
 
 </docgen-api>
 
+<hr>
 
-## IOS
-     COMING SOON
+## TODO
+     IMPROVEMENTS FOR THE ALL PLATFORMS
